@@ -1,0 +1,33 @@
+
+ .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.green{
+    width: 30%;
+    height:100px;
+    background-color: green;
+    border: 1px solid black;  
+}
+
+.yellow{
+   width:100%;
+   height: 100px;
+   background-color: yellow;
+}
+
+@media screen and (min-width: 980px) {
+    .green{
+        width: 16%;
+        height: 40px; 
+    }
+    
+    .yellow{
+        width:50%;
+        height: 41px;
+    }
+
+}
+
